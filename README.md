@@ -30,3 +30,11 @@ Common Class for Rechability
         return ret
         }
     }
+    
+    if Reachability.isConnectedToNetwork() == true {
+        println("Internet connection OK")
+    } 
+    else {
+        println("Internet connection FAILED")
+    }
+
