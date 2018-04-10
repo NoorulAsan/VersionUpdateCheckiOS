@@ -31,6 +31,7 @@ Common Class for Rechability
         }
     }
     
+Adding code in Button   
     if Reachability.isConnectedToNetwork() == true {
         println("Internet connection OK")
     } 
